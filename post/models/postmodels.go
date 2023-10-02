@@ -1,8 +1,8 @@
 package models
 
 type Post struct {
-	post_Id   int
-	post_View string
-	Report    string
+	Id          int
+	Title       string
+	Description string
+	UserId      int
 }
-
