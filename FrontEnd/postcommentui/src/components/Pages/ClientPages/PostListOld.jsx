@@ -22,7 +22,7 @@ function PostList(props) {
 
             })
             .catch(error => {
-                console.error("error fetecching the data from database", error);
+                console.error("error feteching the data from database", error);
             });
     }, [])
 
