@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-bg-colr, #333333);
+    color: var(--primary-font-color, white);
+    height: 50px;
+}
+
+.headerLeftcontainer {
+    flex-grow: 1;
+}
+
+.headerLeftcontainer h1 {
+    display: inline-block;
+}
+
+.headerRightcontainer {
+    justify-self: flex-end;
+}

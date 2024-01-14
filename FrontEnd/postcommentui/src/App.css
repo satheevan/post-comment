@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #333333;
+  --primary-font-color: white;
+  --primary-bg-color: #aeaeae;
+}
+
+ul.menu li {
+  display: inline-block;
+}
+
+a {
+  color: inherit
+}
